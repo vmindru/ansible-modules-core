@@ -83,11 +83,11 @@ options:
       description:
         - This only applies if using a https url as the source of the file.
         - This should only set to C(no) used on personally controlled sites using self-signed cer
-        - Prior to 2.1 the code worked as if this was set to C(yes).
+        - Prior to 2.2 the code worked as if this was set to C(yes).
       required: false
       default: "yes"
       choices: ["yes", "no"]
-      version_added: "2.1"
+      version_added: "2.2"
 author: "Dag Wieers (@dagwieers)"
 todo:
     - re-implement tar support using native tarfile module
